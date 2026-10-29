@@ -96,7 +96,7 @@ Example response (Houston, TX → Denver, CO; route coordinates trimmed):
 
 ### `GET /api/route/map/?start=…&finish=…`
 
-An HTML page that draws the route with Leaflet and OpenStreetMap tiles, showing the numbered fuel stops, every candidate station along the corridor, and a cost breakdown. It reads the cached route, so opening it right after the API call costs no extra API calls.
+An HTML page that draws the route with Leaflet on Esri street-map tiles, showing the numbered fuel stops, every candidate station along the corridor, and a cost breakdown. It reads the cached route, so opening it right after the API call costs no extra API calls.
 
 ## How it works
 
